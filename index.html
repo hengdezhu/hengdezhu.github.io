@@ -42,17 +42,17 @@
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
             <tr>
-                <td style="padding:10px;width:30%;vertical-align:middle;">
+                <td style="padding:10px;width:30%;vertical-align:top;">
                     <div style="display:table;height:100%;width:100%;">
-                        <div style="display:table-cell;vertical-align:middle;">
+                        <div style="display:table-cell;vertical-align:top;">
                             <img src='PerFRDiff/pipeline.png' style="max-width: 100%; height: auto; display: block;">
                         </div>
                     </div>
                 </td>
     
-                <td style="padding:10px;width:70%;vertical-align:middle;">
+                <td style="padding:10px;width:70%;vertical-align:top;">
                     <div style="display:table;height:100%;">
-                        <div style="display:table-cell;vertical-align:middle;">
+                        <div style="display:table-cell;vertical-align:top;">
                             <strong>PerFRDiff: Personalised Weight Editing for Multiple Appropriate Facial Reaction Generation</strong>
                             <br>
                             <strong>Hengde Zhu*</strong>, Xiangyu Kong*, Weicheng Xie, Xin Huang, Linlin Shen, Lu Liu, Hatice Gunes, Siyang Song
@@ -62,6 +62,72 @@
                             <a href="https://openreview.net/pdf?id=KQVjmulG2I">[PDF]</a>
                             |
                             <a href="https://github.com/xk0720/PerFRDiff">[Code]</a>
+                            <p>Abstract</p>
+                            <p>Human facial reactions play crucial roles in dyadic human-human interactions, where individuals (i.e., listeners) with varying cognitive process styles may display different but appropriate facial reactions in response to an identical behaviour expressed by their conversational partners. While several existing facial reaction generation approaches are capable of generating multiple appropriate facial reactions (AFRs) in response to each given human behaviour, they fail to take human's personalised cognitive process in AFRs' generation. In this paper, we propose the first online personalised multiple appropriate facial reaction generation (MAFRG) approach which learns a unique personalised cognitive style from the target human listener's previous facial behaviours and represents it as a set of network weight shifts. These personalised weight shifts are then applied to edit the weights of a pre-trained generic MAFRG model, allowing the obtained personalised model to naturally mimic the target human listener's cognitive process in its reasoning for multiple AFRs generations. Experimental results show that our approach not only largely outperformed all existing approaches in generating more appropriate and diverse generic AFRs, but also serves as the first reliable personalised MAFRG solution.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+            <tr>
+                <td style="padding:10px;width:30%;vertical-align:top;">
+                    <div style="display:table;height:100%;width:100%;">
+                        <div style="display:table-cell;vertical-align:top;">
+                            <img src='MEEDNets/pipeline.png' style="max-width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                </td>
+    
+                <td style="padding:10px;width:70%;vertical-align:top;">
+                    <div style="display:table;height:100%;">
+                        <div style="display:table-cell;vertical-align:top;">
+                            <strong>MEEDNets: Medical image classification via ensemble bio-inspired evolutionary DenseNets</strong>
+                            <br>
+                            <strong>Hengde Zhu</strong>, Wei Wang, Irek Ulidowski, Qinghua Zhou, Shuihua Wang, Huafeng Chen, Yudong Zhang
+                            <br>
+                            <em>Knowledge-Based Systems</em>, 2023
+                            <br>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0950705123007852">[PDF]</a>
+                            |
+                            <a href="https://github.com/hengdezhu/MEEDNets">[Code]</a>
+                            <p>Abstract</p>
+                            <p>Inspired by the biological evolution, this paper proposes an evolutionary synthesis mechanism to automatically evolve DenseNet towards high sparsity and efficiency for medical image classification. Unlike traditional automatic design methods, this mechanism generates a sparser offspring in each generation based on its previous trained ancestor. Concretely, we use a synaptic model to mimic biological evolution in the asexual reproduction. Each generation’s knowledge is passed down to its descendant, and an environmental constraint limits the size of the descendant evolutionary DenseNet, moving the evolution process towards high sparsity. Additionally, to address the limitation of ensemble learning that requires multiple base networks to make decisions, we propose an evolution-based ensemble learning mechanism. It utilises the evolutionary synthesis scheme to generate highly sparse descendant networks, which can be used as base networks to perform ensemble learning in inference. This is specially useful in the extreme case when there is only a single network. Finally, we propose the MEEDNets (Medical Image Classification via Ensemble Bio-inspired Evolutionary DenseNets) model which consists of multiple evolutionary DenseNet-121s synthesised in the evolution process. Experimental results show that our bio-inspired evolutionary DenseNets are able to drop less important structures and compensate for the increasingly sparse architecture. In addition, our proposed MEEDNets model outperforms the state-of-the-art methods on two publicly accessible medical image datasets.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+            <tr>
+                <td style="padding:10px;width:30%;vertical-align:top;">
+                    <div style="display:table;height:100%;width:100%;">
+                        <div style="display:table-cell;vertical-align:top;">
+                            <img src='EDCA-Net/pipeline.png' style="max-width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                </td>
+    
+                <td style="padding:10px;width:70%;vertical-align:top;">
+                    <div style="display:table;height:100%;">
+                        <div style="display:table-cell;vertical-align:top;">
+                            <strong>An evolutionary attention-based network for medical image classification</strong>
+                            <br>
+                            <strong>Hengde Zhu</strong>, Jian Wang, Shui-Hua Wang, Rajeev Raman, Juan M Górriz, Yu-Dong Zhang
+                            <br>
+                            <em>International Journal of Neural Systems</em>, 2023
+                            <br>
+                            <a href="https://www.worldscientific.com/doi/abs/10.1142/S0129065723500107">[PDF]</a>
+                            |
+                            <a href="https://github.com/hengdezhu/EDCA-Net">[Code]</a>
+                            <p>Abstract</p>
+                            <p>Deep learning has become a primary choice in medical image analysis due to its powerful representation capability. However, most existing deep learning models designed for medical image classification can only perform well on a specific disease. The performance drops dramatically when it comes to other diseases. Generalizability remains a challenging problem. In this paper, we propose an evolutionary attention-based network (EDCA-Net), which is an effective and robust network for medical image classification tasks. To extract task-related features from a given medical dataset, we first propose the densely connected attentional network (DCA-Net) where feature maps are automatically channel-wise weighted, and the dense connectivity pattern is introduced to improve the efficiency of information flow. To improve the model capability and generalizability, we introduce two types of evolution: intra- and inter-evolution. The intra-evolution optimizes the weights of DCA-Net, while the inter-evolution allows two instances of DCA-Net to exchange training experience during training. The evolutionary DCA-Net is referred to as EDCA-Net. The EDCA-Net is evaluated on four publicly accessible medical datasets of different diseases. Experiments showed that the EDCA-Net outperforms the state-of-the-art methods on three datasets and achieves comparable performance on the last dataset, demonstrating good generalizability for medical image classification.</p>
                         </div>
                     </div>
                 </td>
