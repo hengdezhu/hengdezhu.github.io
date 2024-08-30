@@ -129,3 +129,54 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+img {
+  /* border-radius: 10%; */
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #1772d0;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f05a28;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
